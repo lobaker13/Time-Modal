@@ -1,0 +1,108 @@
+body{
+  background-image: url("https://zellox.com/wp-content/uploads/2016/04/cool-website-backgrounds-%E2%80%AB185598418%E2%80%AC-%E2%80%AB%E2%80%AC.jpg");
+  max-width: inherit;
+}
+
+
+h1{
+  color: #11bcbc;
+  text-decoration: overline darkred;
+}
+
+.fancyNav{
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 4px;
+  color: azure;
+  margin: 2px;
+
+}
+.fancyNav li{
+  float:left;
+  list-style: none;
+  padding: inherit;
+  font-family: sans-serif;
+}
+
+.fancyNav li:hover{
+  border-right:20px solid red;
+  border-radius: 50%;
+}
+.p1 {
+  margin: auto;
+  float:left;
+  display: inline-block;
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.p2 {
+  padding-top: 10%;
+  font-size: 20px;
+}
+
+.p3 {
+font-size: 22px;
+font-family: fantasy;
+}
+
+.p4 {
+font-size: 18px;
+font-family: serif;
+}
+
+p {
+  color:white;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 25%;
+  top: 30%;
+  width:35%;
+  height:35%;
+  overflow: auto;
+  background-color: #0f4584;
+  opacity: 0.9;
+  border: 3px solid #052148;
+}
+
+.insideModal {
+  background-color: #87aad0;
+  margin: 15% auto;
+  padding: 5px;
+  border: 2px solid #406fa3;
+  width: 80%;
+  padding-right:5px;
+}
+
+
+.close{
+  color: red;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.redundantPhoto {
+  float:right;
+  right: 10px;
+  max-width: 640px;
+  width:50%;
+  border: 2px solid darkred;
+  padding: 2px;
+  border-radius: 35%;
+  opacity: 0.6;
+}
